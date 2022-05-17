@@ -58,10 +58,6 @@ simple_shell is designed to run in the `Ubuntu 14.04 LTS` linux environment and 
    - Run the shell in interactive mode: `./hsh`
    - Or run the shell in non-interactive mode: example `echo "ls" | ./hsh`
 
-## Usage
-
-The simple_shell is designed to execute commands in a similar manner to sh, however with more limited functionality. The development of this shell is ongoing. The below features will be checked as they become available (see man page for complete information on usage):
-
 ### Features
 - [x] uses the PATH
 - [x] implements builtins
@@ -71,10 +67,6 @@ The simple_shell is designed to execute commands in a similar manner to sh, howe
 - [x] shell continues upon Crtl+C (*^C*)
 - [x] handles comments (#)
 - [x] handles *;*
-- [ ] custom getline type function
-- [ ] handles *&&* and *||*
-- [ ] aliases
-- [ ] variable replacement
 
 
 ### Builtins
@@ -83,9 +75,6 @@ The simple_shell is designed to execute commands in a similar manner to sh, howe
 - [x] env
 - [x] setenv
 - [x] unsetenv
-- [ ] cd
-- [ ] help
-- [ ] history
 
 ## Example of Use
 Run the executable in your terminal after compiling:
@@ -114,7 +103,7 @@ drwxrwxr-x 8 user1234 user1234  4096 May 17 22:14 .git
 ```
 
 ## Bugs
-At this time, there are no known bugs.
+There are no known bugs at the time of publishing the code.
 
 ## License
 simple_shell is open source and therefore free to download and use without permission.
